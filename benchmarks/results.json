@@ -1,0 +1,1534 @@
+{
+  "meta": {
+    "timestamp": "2026-09-04T10:20:25.151702+00:00",
+    "dataset_size": 60,
+    "ru_size": 30,
+    "en_size": 30,
+    "ru_clean": 10,
+    "ru_profanity": 10,
+    "ru_masked": 10,
+    "en_clean": 10,
+    "en_profanity": 10,
+    "en_masked": 10,
+    "ru_masked_examples": [
+      "на#хуя",
+      "х*й",
+      "0хуеть",
+      "бл@ть",
+      "п..здец",
+      "х у й",
+      "б.л.я",
+      "бляяяя",
+      "хуи",
+      "пздец"
+    ],
+    "version": "1.0"
+  },
+  "dataset": [
+    {
+      "text": "Привет, как дела?",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "Сегодня хорошая погода",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "Я люблю читать книги",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "Мандарин очень вкусный",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "Мы поедем на море летом",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "Спасибо за помощь",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "Художник рисует картину",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "Собрание началось вовремя",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "Добрый день, уважаемые коллеги",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "На столе лежит книга",
+      "expected": false,
+      "category": "ru_clean"
+    },
+    {
+      "text": "Пошел на хуй",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "Это полный пиздец",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "Охуеть, как круто",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "Блядь, я забыл ключи",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "Ты еблан конченый",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "Хуйня какая-то",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "Заебал ты меня",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "Сука, ты ебаная",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "Бляди на районе",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "Нахуя ты это сделал",
+      "expected": true,
+      "category": "ru_profanity"
+    },
+    {
+      "text": "на#хуя ты это сделал",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "х*й с ним",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "0хуеть, вот это да",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "бл@ть, опять опоздал",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "п..здец какой-то",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "х у й знает что",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "б.л.я буду",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "бляяяя, как же так",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "хуи пинаешь целый день",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "пздец просто",
+      "expected": true,
+      "category": "ru_masked"
+    },
+    {
+      "text": "The sunshine is beautiful",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "The assassin was in the game",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "This is a fantastic opportunity",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "Enjoy your weekend",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "The weather is nice today",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "I will call you later",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "Looking forward to meeting you",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "Wishing you all the best",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "Congratulations on your success",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "Travel broadens the mind",
+      "expected": false,
+      "category": "en_clean"
+    },
+    {
+      "text": "What the fuck is this",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "This is bullshit",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "You are a dumb ass",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "Shit happens",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "Fucking hell",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "You bastard",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "Go fuck yourself",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "This is a fucking nightmare",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "Asshole, move away",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "Bitch, please",
+      "expected": true,
+      "category": "en_profanity"
+    },
+    {
+      "text": "f#ck you",
+      "expected": true,
+      "category": "en_masked"
+    },
+    {
+      "text": "sh*t happens",
+      "expected": true,
+      "category": "en_masked"
+    },
+    {
+      "text": "f@ck this shit",
+      "expected": true,
+      "category": "en_masked"
+    },
+    {
+      "text": "b!tch please",
+      "expected": true,
+      "category": "en_masked"
+    },
+    {
+      "text": "a$$hole just left",
+      "expected": true,
+      "category": "en_masked"
+    },
+    {
+      "text": "f u c k this",
+      "expected": true,
+      "category": "en_masked"
+    },
+    {
+      "text": "b.i.t.c.h please",
+      "expected": true,
+      "category": "en_masked"
+    },
+    {
+      "text": "fuuuuuck you",
+      "expected": true,
+      "category": "en_masked"
+    },
+    {
+      "text": "sh!t happens again",
+      "expected": true,
+      "category": "en_masked"
+    },
+    {
+      "text": "fck you buddy",
+      "expected": true,
+      "category": "en_masked"
+    }
+  ],
+  "results": {
+    "detected-profanity": {
+      "name": "detected-profanity",
+      "status": "ok",
+      "detail": "",
+      "tp": 40,
+      "tn": 20,
+      "fp": 0,
+      "fn": 0,
+      "total": 60,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "time_sec": 0.0315800769985799,
+      "avg_ms": 0.5263346166429983,
+      "ru_accuracy": 1.0,
+      "en_accuracy": 1.0,
+      "masked_accuracy": 1.0,
+      "clean_accuracy": 1.0,
+      "open_profanity_accuracy": 1.0
+    },
+    "better-profanity": {
+      "name": "better-profanity",
+      "status": "ok",
+      "detail": "",
+      "tp": 16,
+      "tn": 20,
+      "fp": 0,
+      "fn": 24,
+      "total": 60,
+      "accuracy": 0.6,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285715,
+      "time_sec": 0.1353705549990991,
+      "avg_ms": 2.2561759166516517,
+      "ru_accuracy": 0.3333333333333333,
+      "en_accuracy": 0.8666666666666667,
+      "masked_accuracy": 0.3,
+      "clean_accuracy": 1.0,
+      "open_profanity_accuracy": 0.5
+    },
+    "profanity-check": {
+      "name": "profanity-check",
+      "status": "ok",
+      "detail": "",
+      "tp": 15,
+      "tn": 20,
+      "fp": 0,
+      "fn": 25,
+      "total": 60,
+      "accuracy": 0.5833333333333334,
+      "precision": 1.0,
+      "recall": 0.375,
+      "f1": 0.5454545454545454,
+      "time_sec": 0.19996882699888374,
+      "avg_ms": 3.332813783314729,
+      "ru_accuracy": 0.3333333333333333,
+      "en_accuracy": 0.8333333333333334,
+      "masked_accuracy": 0.25,
+      "clean_accuracy": 1.0,
+      "open_profanity_accuracy": 0.5
+    },
+    "censure": {
+      "name": "censure",
+      "status": "skipped",
+      "detail": "skipped (not installed: No module named 'censure')",
+      "tp": 0,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "total": 60,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "time_sec": 0.0,
+      "avg_ms": 0.0,
+      "ru_accuracy": 0.0,
+      "en_accuracy": 0.0,
+      "masked_accuracy": 0.0,
+      "clean_accuracy": 0.0,
+      "open_profanity_accuracy": 0.0
+    }
+  },
+  "details": {
+    "detected-profanity": [
+      {
+        "text": "Привет, как дела?",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Сегодня хорошая погода",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Я люблю читать книги",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Мандарин очень вкусный",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Мы поедем на море летом",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Спасибо за помощь",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Художник рисует картину",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Собрание началось вовремя",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Добрый день, уважаемые коллеги",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "На столе лежит книга",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Пошел на хуй",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Это полный пиздец",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Охуеть, как круто",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Блядь, я забыл ключи",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Ты еблан конченый",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Хуйня какая-то",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Заебал ты меня",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Сука, ты ебаная",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Бляди на районе",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Нахуя ты это сделал",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "на#хуя ты это сделал",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "х*й с ним",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "0хуеть, вот это да",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "бл@ть, опять опоздал",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "п..здец какой-то",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "х у й знает что",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "б.л.я буду",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "бляяяя, как же так",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "хуи пинаешь целый день",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "пздец просто",
+        "expected": true,
+        "predicted": true,
+        "category": "ru_masked"
+      },
+      {
+        "text": "The sunshine is beautiful",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "The assassin was in the game",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "This is a fantastic opportunity",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Enjoy your weekend",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "The weather is nice today",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "I will call you later",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Looking forward to meeting you",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Wishing you all the best",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Congratulations on your success",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Travel broadens the mind",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "What the fuck is this",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "This is bullshit",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "You are a dumb ass",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Shit happens",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Fucking hell",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "You bastard",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Go fuck yourself",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "This is a fucking nightmare",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Asshole, move away",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Bitch, please",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "f#ck you",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "sh*t happens",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "f@ck this shit",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "b!tch please",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "a$$hole just left",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "f u c k this",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "b.i.t.c.h please",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "fuuuuuck you",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "sh!t happens again",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "fck you buddy",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      }
+    ],
+    "better-profanity": [
+      {
+        "text": "Привет, как дела?",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Сегодня хорошая погода",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Я люблю читать книги",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Мандарин очень вкусный",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Мы поедем на море летом",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Спасибо за помощь",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Художник рисует картину",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Собрание началось вовремя",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Добрый день, уважаемые коллеги",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "На столе лежит книга",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Пошел на хуй",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Это полный пиздец",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Охуеть, как круто",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Блядь, я забыл ключи",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Ты еблан конченый",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Хуйня какая-то",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Заебал ты меня",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Сука, ты ебаная",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Бляди на районе",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Нахуя ты это сделал",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "на#хуя ты это сделал",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "х*й с ним",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "0хуеть, вот это да",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "бл@ть, опять опоздал",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "п..здец какой-то",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "х у й знает что",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "б.л.я буду",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "бляяяя, как же так",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "хуи пинаешь целый день",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "пздец просто",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "The sunshine is beautiful",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "The assassin was in the game",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "This is a fantastic opportunity",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Enjoy your weekend",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "The weather is nice today",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "I will call you later",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Looking forward to meeting you",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Wishing you all the best",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Congratulations on your success",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Travel broadens the mind",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "What the fuck is this",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "This is bullshit",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "You are a dumb ass",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Shit happens",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Fucking hell",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "You bastard",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Go fuck yourself",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "This is a fucking nightmare",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Asshole, move away",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Bitch, please",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "f#ck you",
+        "expected": true,
+        "predicted": false,
+        "category": "en_masked"
+      },
+      {
+        "text": "sh*t happens",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "f@ck this shit",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "b!tch please",
+        "expected": true,
+        "predicted": false,
+        "category": "en_masked"
+      },
+      {
+        "text": "a$$hole just left",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "f u c k this",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "b.i.t.c.h please",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "fuuuuuck you",
+        "expected": true,
+        "predicted": false,
+        "category": "en_masked"
+      },
+      {
+        "text": "sh!t happens again",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "fck you buddy",
+        "expected": true,
+        "predicted": false,
+        "category": "en_masked"
+      }
+    ],
+    "profanity-check": [
+      {
+        "text": "Привет, как дела?",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Сегодня хорошая погода",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Я люблю читать книги",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Мандарин очень вкусный",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Мы поедем на море летом",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Спасибо за помощь",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Художник рисует картину",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Собрание началось вовремя",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Добрый день, уважаемые коллеги",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "На столе лежит книга",
+        "expected": false,
+        "predicted": false,
+        "category": "ru_clean"
+      },
+      {
+        "text": "Пошел на хуй",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Это полный пиздец",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Охуеть, как круто",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Блядь, я забыл ключи",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Ты еблан конченый",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Хуйня какая-то",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Заебал ты меня",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Сука, ты ебаная",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Бляди на районе",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "Нахуя ты это сделал",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_profanity"
+      },
+      {
+        "text": "на#хуя ты это сделал",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "х*й с ним",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "0хуеть, вот это да",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "бл@ть, опять опоздал",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "п..здец какой-то",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "х у й знает что",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "б.л.я буду",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "бляяяя, как же так",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "хуи пинаешь целый день",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "пздец просто",
+        "expected": true,
+        "predicted": false,
+        "category": "ru_masked"
+      },
+      {
+        "text": "The sunshine is beautiful",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "The assassin was in the game",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "This is a fantastic opportunity",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Enjoy your weekend",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "The weather is nice today",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "I will call you later",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Looking forward to meeting you",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Wishing you all the best",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Congratulations on your success",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "Travel broadens the mind",
+        "expected": false,
+        "predicted": false,
+        "category": "en_clean"
+      },
+      {
+        "text": "What the fuck is this",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "This is bullshit",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "You are a dumb ass",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Shit happens",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Fucking hell",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "You bastard",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Go fuck yourself",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "This is a fucking nightmare",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Asshole, move away",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "Bitch, please",
+        "expected": true,
+        "predicted": true,
+        "category": "en_profanity"
+      },
+      {
+        "text": "f#ck you",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "sh*t happens",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "f@ck this shit",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "b!tch please",
+        "expected": true,
+        "predicted": false,
+        "category": "en_masked"
+      },
+      {
+        "text": "a$$hole just left",
+        "expected": true,
+        "predicted": false,
+        "category": "en_masked"
+      },
+      {
+        "text": "f u c k this",
+        "expected": true,
+        "predicted": false,
+        "category": "en_masked"
+      },
+      {
+        "text": "b.i.t.c.h please",
+        "expected": true,
+        "predicted": false,
+        "category": "en_masked"
+      },
+      {
+        "text": "fuuuuuck you",
+        "expected": true,
+        "predicted": false,
+        "category": "en_masked"
+      },
+      {
+        "text": "sh!t happens again",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      },
+      {
+        "text": "fck you buddy",
+        "expected": true,
+        "predicted": true,
+        "category": "en_masked"
+      }
+    ],
+    "censure": []
+  },
+  "summary": {
+    "best_accuracy": {
+      "library": "detected-profanity",
+      "value": 1.0
+    },
+    "best_f1": {
+      "library": "detected-profanity",
+      "value": 1.0
+    },
+    "best_recall": {
+      "library": "detected-profanity",
+      "value": 1.0
+    },
+    "best_precision": {
+      "library": "detected-profanity",
+      "value": 1.0
+    },
+    "best_masked": {
+      "library": "detected-profanity",
+      "value": 1.0
+    },
+    "fastest": {
+      "library": "detected-profanity",
+      "time_sec": 0.0315800769985799,
+      "avg_ms": 0.5263346166429983
+    },
+    "total_libraries": 4,
+    "ok_libraries": 3,
+    "skipped_libraries": 1
+  }
+}

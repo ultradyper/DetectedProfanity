@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "detected-profanity"
+version = "0.1.0"
+description = "Детекция мата RU/EN/транслит — leet, homoglyph, NFKC, allowlist"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["profanity", "censor", "russian", "moderation", "nlp"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Linguistic",
+    "Natural Language :: Russian",
+    "Natural Language :: English",
+]
+authors = [{ name = "DetectedProfanity Contributors" }]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/detected-profanity/detected-profanity"
+Repository = "https://github.com/detected-profanity/detected-profanity"
+Issues = "https://github.com/detected-profanity/detected-profanity/issues"
+
+[project.scripts]
+detected-profanity = "detected_profanity.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["detected_profanity"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.mypy]
+python_version = "3.8"
+strict = true
+warn_unused_ignores = true
